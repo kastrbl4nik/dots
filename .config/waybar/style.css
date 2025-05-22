@@ -1,0 +1,82 @@
+@import url('../../.cache/wal/colors-waybar.css');
+
+* {
+    all: unset;
+    font-weight: 500;
+    font-family: 'FiraCode';
+}
+
+#waybar {
+    font-size: 16px;
+}
+
+#workspaces,
+#pulseaudio,
+#pulseaudio-slider,
+#custom-theme-switcher,
+#clock {
+    padding: 2px 15px;
+    color: @foreground;
+    background: @background;
+    border-radius: 8px;
+    border: solid 1px @color3;
+    opacity: 0.8;
+    margin: 4px;
+    box-shadow: 0 0 2px 1px @color0;
+}
+
+#workspaces,
+#custom-theme-switcher,
+#pulseaudio {
+    font-size: 24px;
+}
+#workspaces {
+    padding-left: 13px;
+}
+
+#workspaces button {
+    margin-left: 4px;
+    margin-right: 4px;
+    color: @color8;
+}
+
+#workspaces button.active {
+    color: @color1;
+}
+
+#clock {
+    padding-top: 4px;
+}
+
+#pulseaudio {
+    min-width: 20px;
+}
+
+#pulseaudio-slider slider {
+    min-height: 0px;
+    min-width: 0px;
+    box-shadow: none;
+}
+
+#pulseaudio-slider trough {
+    min-height: 10px;
+    min-width: 80px;
+    border-radius: 5px;
+    background-color: @color8;
+}
+
+#pulseaudio-slider highlight {
+    min-width: 10px;
+    border-radius: 4px;
+    background-color: @color1;
+}
+
+#custom-theme-switcher {
+    color: @color1;
+    padding-left: 11px;
+}
+
+#custom-theme-switcher:hover,
+#pulseaudio:hover {
+    color: @color1;
+}

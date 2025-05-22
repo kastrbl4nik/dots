@@ -1,0 +1,10 @@
+include=~/.cache/wal/colors-mako
+
+font=FiraCode Nerd Font 10
+border-size=2
+border-radius=10
+padding=16
+default-timeout=5000
+max-visible=5
+anchor=top-right
+
