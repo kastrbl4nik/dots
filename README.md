@@ -1,4 +1,3 @@
 # dots
 
-Uploading 2025-05-22 13-33-08 (online-video-cutter.com).mp4…
-
+https://github.com/user-attachments/assets/b0df08b7-997d-461f-a11e-d055c7efa72c
